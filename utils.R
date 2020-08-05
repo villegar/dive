@@ -10,7 +10,8 @@
 #'
 # @examples
 raw_md5 <- function(extension = "md5.txt", subdirectory = "") {
-  files <- list.files(here::here(subdirectory), pattern = paste0("*", extension))
+  extension <- paste0("*", extension, "$") # Adding regex pattern
+  files <- list.files(here::here(subdirectory), pattern = extension)
   raw_sequences_md5 <- data.frame() # Create empty data frame
   for(f in files) { # Read each file containing the MD5SUM and RAW SEQUENCE NAMES
     tmp <- read.table(f, col.names = c("MD5SUM", "RAW_SEQUENCE_NAME"), stringsAsFactors = FALSE)
