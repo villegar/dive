@@ -52,3 +52,12 @@ get_md5 <- function(extension = "fasta", subdirectory = "") {
     }
   }
 }
+
+generate_logo <- function() {
+  hexSticker::sticker("images/diving.png", package="DIVe", 
+                      h_color = "black",  h_fill = "white",
+                      l_x = 1, l_y = 1, spotlight = FALSE, 
+                      s_x = 1.15, s_y = 1.0, s_width = .6, 
+                      p_x = .75, p_y = 1.5, p_size = 8, p_color = "black",
+                      filename="images/logo.png")
+}
