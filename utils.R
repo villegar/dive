@@ -7,8 +7,6 @@
 #' working directory.
 #'
 #' @export
-#'
-# @examples
 raw_md5 <- function(extension = "md5.txt", subdirectory = "") {
   extension <- paste0("*", extension, "$") # Adding regex pattern
   files <- list.files(here::here(subdirectory), pattern = extension)
@@ -22,6 +20,13 @@ raw_md5 <- function(extension = "md5.txt", subdirectory = "") {
   write.csv(raw_sequences_md5, here::here("raw_sequences_md5.csv"))
 }
 
+#' Compute MD5 hashes recursively for files matching an extension within a 
+#' subdirectory in the current path.
+#'
+#' @param extension preferred file extension, default: fasta
+#' @param subdirectory subdirectory containing the files, within the current
+#' 
+#' @export
 get_md5 <- function(extension = "fasta", subdirectory = "") {
   # List subdirectories inside the current working directory
   dirs <- unique(c("", list.dirs(here::here(subdirectory),
