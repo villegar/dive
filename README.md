@@ -1,4 +1,4 @@
-# DIV<sub>e</sub> Data Integrity Validation
+# DIV<sub>e</sub> Data Integrity Validation <img src="images/logo.png" alt="dive-logo" align="right" height=200px/>
 
 Simple R script to assess the integrity of sequenced data before archiving it.
 
