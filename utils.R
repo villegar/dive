@@ -53,6 +53,12 @@ get_md5 <- function(extension = "fasta", subdirectory = "") {
   }
 }
 
+#' Generates DIVe hexagon logo for the repository
+#'
+#' @export
+#'
+#' @examples
+#' generate_logo()
 generate_logo <- function() {
   hexSticker::sticker("images/diving.png", package="DIVe", 
                       h_color = "black",  h_fill = "white",
