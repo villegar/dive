@@ -58,8 +58,8 @@ get_md5 <- function(extension = "fasta", subdirectory = "") {
 #' @export
 #'
 #' @examples
-#' generate_logo()
-generate_logo <- function() {
+#' hex_logo()
+hex_logo <- function() {
   hexSticker::sticker("images/diving.png", package="DIVe", 
                       h_color = "black",  h_fill = "white",
                       l_x = 1, l_y = 1, spotlight = FALSE, 
