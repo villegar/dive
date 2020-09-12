@@ -1,0 +1,43 @@
+---
+output: github_document
+always_allow_html: yes
+---
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "figures/README-",
+  out.width = "100%"
+)
+```
+
+# DIV<sub>e</sub>: Data Integrity Validation toolkit <img src="https://raw.githubusercontent.com/villegar/dive/inst/images/logo.png" alt="logo" align="right" height=200px/>
+
+<!-- badges: start -->
+<!-- `r badger::badge_devel("villegar/dive", "blue")` -->
+<!-- `r badger::badge_code_size("villegar/dive")` -->
+[![R build status](https://github.com/villegar/dive/workflows/R-CMD-check/badge.svg)](https://github.com/villegar/dive/actions)
+<!-- badges: end -->
+
+## Overview
+
+The goal of DIVe is to provide a set of functions for data integrity validation.
+
+## Installation
+
+<!-- You can install the released version of DIVe from [CRAN](https://CRAN.R-project.org) with: -->
+
+<!-- ``` r -->
+<!-- install.packages("dive") -->
+<!-- ``` -->
+
+<!-- And the development version from [GitHub](https://github.com/) with: -->
+
+You can install the development version from [GitHub](https://github.com/) with:
+``` r
+# install.packages(c("hexSticker", "remotes")
+remotes::install_github("villegar/dive")
+```
+
+&copy; 2020 [Fennell Lab](https://fennell-lab.netlify.app) - [South Dakota State University](https://www.sdstate.edu)
