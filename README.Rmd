@@ -12,7 +12,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# DIV<sub>e</sub>: Data Integrity Validation toolkit <img src="https://raw.githubusercontent.com/villegar/dive/inst/images/logo.png" alt="logo" align="right" height=200px/>
+# DIV<sub>e</sub>: Data Integrity Validation toolkit <img src="https://raw.githubusercontent.com/villegar/dive/master/inst/images/logo.png" alt="logo" align="right" height=200px/>
 
 <!-- badges: start -->
 <!-- `r badger::badge_devel("villegar/dive", "blue")` -->

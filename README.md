@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# DIV<sub>e</sub>: Data Integrity Validation toolkit <img src="https://raw.githubusercontent.com/villegar/dive/inst/images/logo.png" alt="logo" align="right" height=200px/>
+# DIV<sub>e</sub>: Data Integrity Validation toolkit <img src="https://raw.githubusercontent.com/villegar/dive/master/inst/images/logo.png" alt="logo" align="right" height=200px/>
 
 <!-- badges: start -->
 
