@@ -4,7 +4,17 @@
 \alias{hex_logo}
 \title{Create hexagonal logo for the package}
 \usage{
-hex_logo()
+hex_logo(
+  subplot = system.file("images/diving.png", package = "dive"),
+  dpi = 600,
+  h_color = "#000000",
+  h_fill = "#FFFFFF",
+  output = system.file("images/logo.png", package = "dive"),
+  package = "DIVe",
+  p_color = "#000000",
+  url = "https://github.com/villegar/dive",
+  u_size = 1.55
+)
 }
 \arguments{
 \item{subplot}{image to use as the main logo}
