@@ -5,12 +5,11 @@
 
 <!-- badges: start -->
 
-<!-- [![](https://img.shields.io/badge/devel%20version-0.0.1-blue.svg)](https://github.com/villegar/dive) -->
-
 <!-- [![](https://img.shields.io/github/languages/code-size/villegar/dive.svg)](https://github.com/villegar/dive) -->
 
 [![R build
 status](https://github.com/villegar/dive/workflows/R-CMD-check/badge.svg)](https://github.com/villegar/dive/actions)
+[![](https://img.shields.io/badge/devel%20version-0.0.1-blue.svg)](https://github.com/villegar/dive)
 <!-- badges: end -->
 
 ## Overview
